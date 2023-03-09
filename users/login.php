@@ -44,7 +44,7 @@ $dir = (strtolower($langCode) === 'ar') ? "rtl" : "ltr";
     <meta charset="utf-8">
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="copyright" content="Liran Tal & Filippo Lauria">
+    <meta name="copyright" content="WitRADIUS">
     <meta name="robots" content="noindex">
 
     <link rel="apple-touch-icon" sizes="180x180" href="../common/static/images/favicon/apple-touch-icon.png">
