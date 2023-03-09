@@ -64,7 +64,7 @@
         $output .= "
             $trTextBeg
                 <td>
-                    <table border='0' cellpadding='1' cellspacing='1' height='140' width='211'>
+                    <table border='0' cellpadding='1' cellspacing='1' height='3508' width='2480'>
                         <tbody>
                         <tr align='center'>
                             <td colspan='2'>
