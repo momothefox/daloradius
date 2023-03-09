@@ -37,5 +37,5 @@ if (strpos($_SERVER['PHP_SELF'], '/library/extensions/welcome_page.php') !== fal
     <h4>
         <a class="text-decoration-none" title="Mail to WitRADIUS" href="mailto:WitRADIUS &lt;witradius@gmail.com&gt;">WitRADIUS</a>
     </h4>
-    <img class="my-3" src="static/images/daloradius_logo.jpg">
+    <img class="my-3" src="static/images/witradius_logo.jpg">
 </div>
