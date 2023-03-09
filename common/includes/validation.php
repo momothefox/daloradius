@@ -257,15 +257,6 @@ $valid_timeUnits = array( "second", "minute", "hour", "day", "week", "month", );
 $valid_languages = array(
                             "ar" => "Arabic",
                             "en" => "English",
-                            "es_ve" => "Spanish - Venezuelan",
-                            "hu" => "Hungarian",
-                            "it" => "Italian",
-                            "ja" => "Japanese",
-                            "pt_br" => "Portuguese - Brazilian",
-                            "ro" => "Romanian",
-                            "ru" => "Russian",
-                            "tr" => "Turkish",
-                            "zh" => "Chinese",
                         );
 
 ?>

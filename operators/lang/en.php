@@ -29,11 +29,11 @@ if (strpos($_SERVER['PHP_SELF'], '/lang/en.php') !== false) {
     exit;
 }
 
-$l['all']['daloRADIUS'] = sprintf("daloRADIUS %s", $configValues['DALORADIUS_VERSION']);
-$l['all']['daloRADIUSVersion'] = sprintf("version %s ", $configValues['DALORADIUS_VERSION']);
-$l['all']['copyright1'] = 'RADIUS Management, Reporting, Accounting and Billing by <a target="_blank" href="https://github.com/lirantal/daloradius">Liran Tal</a>';
-$l['all']['copyright2'] = 'daloRADIUS - Copyright &copy; 2007-' . date('Y') . ' by <a target="_blank" href="https://github.com/lirantal/daloradius">Liran Tal</a>.<br>'
-                        . 'daloRADIUS has been enhanced by <a target="_blank" href="https://github.com/filippolauria">Filippo Lauria</a>.';
+$l['all']['WitRADIUS'] = sprintf("WitRADIUS %s", $configValues['DALORADIUS_VERSION']);
+$l['all']['WitRADIUSVersion'] = sprintf("version %s ", $configValues['DALORADIUS_VERSION']);
+$l['all']['copyright1'] = 'RADIUS Management, Reporting, Accounting and Billing by <a target="_blank" href="https://fb.com/witradius">WitRADIUS</a>';
+$l['all']['copyright2'] = 'WitRADIUS - Copyright &copy; 2023 by <a target="_blank" href="https://fb.com/witradius">WitRADIUS</a>.<br>'
+                        . 'WitRADIUS has been enhanced by <a target="_blank" href="https://wifi-station.com">Wit Solutoins</a>.';
 $l['all']['ID'] = "ID";
 $l['all']['PoolName'] = "Pool Name";
 $l['all']['CalledStationId'] = "CalledStationId";

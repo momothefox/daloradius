@@ -30,11 +30,11 @@ if (strpos($_SERVER['PHP_SELF'], '/lang/ar.php') !== false) {
     exit;
 }
 
-$l['all']['daloRADIUS'] = sprintf("daloRADIUS %s", $configValues['DALORADIUS_VERSION']);
+$l['all']['WitRADIUS'] = sprintf("daloRADIUS %s", $configValues['DALORADIUS_VERSION']);
 $l['all']['daloRADIUSVersion'] = sprintf("version %s ", $configValues['DALORADIUS_VERSION']);
-$l['all']['copyright1'] = 'راديوس الإدارة وإعداد التقارير والمحاسبة والفواتير <a target="_blank" href="https://github.com/lirantal/daloradius">Liran Tal</a>';
-$l['all']['copyright2'] = 'حقوق نشر دالوراديوس 2007-2023 بواسطة <a target="_blank" href="https://github.com/lirantal/daloradius">Liran Tal</a>.<br>'
-                        . 'تم تطوير دالوراديوس يواسطة <a target="_blank" href="https://github.com/filippolauria">Filippo Lauria</a>.';
+$l['all']['copyright1'] = 'راديوس الإدارة وإعداد التقارير والمحاسبة والفواتير <a target="_blank" href="https://fb.com/witradius">WitRADIUS</a>';
+$l['all']['copyright2'] = 'حقوق نشر ويت راديوس 2023 بواسطة <a target="_blank" href="https://fb.com/witradius">WitRADIUS</a>.<br>'
+                        . 'تم تطوير ويت راديوس بواسطة <a target="_blank" href="http://wifi-station.com">Wit Solutions</a>.';
 $l['all']['ID'] = "مسلسل";
 $l['all']['PoolName'] = "IP حوض";
 $l['all']['CalledStationId'] = "ماك نقطة الوصول";
