@@ -145,7 +145,8 @@
 
 }
 
-    $ticketInformation = "<strong>Contact Us</strong>:<br>+01005337746 - +01114422302.";
+    $ticketInformation = "<strong>Information</strong>:<br>to use this card, please connect your device to the nearest ssid."
+                       . "Open your web browser and enter each needed field.";
     $ticketLogoFile = "../../static/images/witradius_small.jpg";
 
 
