@@ -1604,7 +1604,7 @@ if (isset($_POST['submit'])) {
         
         $sql = "
         -- Adding new custom daloRADIUS groups
-        INSERT IGNORE INTO `radgroupcheck` (Groupname,Attribute,Op,Value) VALUES ('daloRADIUS-Disabled-Users','Auth-Type', ':=', 'Reject');
+        INSERT IGNORE INTO `radgroupcheck` (Groupname,Attribute,Op,Value) VALUES ('WitRADIUS-Disabled-Users','Auth-Type', ':=', 'Reject');
         ";
         $res = $dbSocket->query($sql);
     

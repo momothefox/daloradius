@@ -10429,7 +10429,7 @@ UNLOCK TABLES;
 
 -- Adding new custom daloRADIUS groups
 INSERT IGNORE INTO `radgroupcheck` (`groupname`,`attribute`,`op`,`value`)
-                            VALUES ('daloRADIUS-Disabled-Users','Auth-Type',':=','Reject');
+                            VALUES ('WitRADIUS-Disabled-Users','Auth-Type',':=','Reject');
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;

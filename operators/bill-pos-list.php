@@ -105,7 +105,7 @@
                            ubi.billstatus, ubi.planname, ubi.company, ui.firstname, IFNULL(rug.username, 0) AS disabled
                       FROM %s AS ui, %s AS rc
                       LEFT JOIN %s AS ubi ON rc.username=ubi.username
-                      LEFT JOIN %s AS rug ON rug.username=rc.username AND rug.groupname='daloRADIUS-Disabled-Users'",
+                      LEFT JOIN %s AS rug ON rug.username=rc.username AND rug.groupname='WitRADIUS-Disabled-Users'",
                    $configValues['CONFIG_DB_TBL_DALOUSERINFO'],
                    $configValues['CONFIG_DB_TBL_RADCHECK'],
                    $configValues['CONFIG_DB_TBL_DALOUSERBILLINFO'],

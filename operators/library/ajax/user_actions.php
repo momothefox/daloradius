@@ -28,7 +28,7 @@
 include_once('../checklogin.php');
 
 // name of the group of disabled users
-$disabled_groupname = 'daloRADIUS-Disabled-Users';
+$disabled_groupname = 'WitRADIUS-Disabled-Users';
 
 // username and divContainer are required
 if (array_key_exists('username', $_GET) && isset($_GET['username']) &&

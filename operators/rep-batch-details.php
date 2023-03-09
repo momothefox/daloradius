@@ -411,7 +411,7 @@
                 $status = sprintf('<span class="badge bg-%s ms-1">%s</span>', $badge, (($active !== '0') ? "yes" : "no"));
                 
                 // check if user is disabled
-                $disabled = in_array('daloRADIUS-Disabled-Users',
+                $disabled = in_array('WitRADIUS-Disabled-Users',
                                      get_user_group_mappings($dbSocket, $username));
                 
                 $img_format = '<i class="bi bi-%s-circle-fill text-%s me-1" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="%s"></i>';

@@ -196,7 +196,7 @@
                 $this_username = $row['username'];
                 $this_groupname = $row['groupname'];
 
-                if ($this_groupname === 'daloRADIUS-Disabled-Users') {
+                if ($this_groupname === 'WitRADIUS-Disabled-Users') {
                     $records[$this_username]['enabled'] = false;
                 } else {
                     array_push($records[$this_username]['groups'],
