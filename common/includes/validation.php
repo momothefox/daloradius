@@ -246,8 +246,7 @@ $valid_planTypes = array( "Prepaid", "Postpaid", "2Checkout", "PayPal", );
 $valid_planRecurringPeriods = array( "Never", "Daily", "Weekly", "Monthly", "Quarterly", "Semi-Yearly", "Yearly", );
 $valid_planRecurringBillingSchedules = array( "Fixed", "Anniversary", );
 $valid_planCurrencys = array(
-                                "USD", "EUR", "GBP", "CAD", "JPY", "AUD", "NZD", "CHF", "HKD", "SGD",
-                                "SEK", "DKK", "PLN", "NOK", "HUF", "CZK", "ILS", "MXN", "KSH",
+                               "EGP", "USD", "EUR", "GBP",
                             );
 $valid_planTimeTypes = array( "Accumulative", "Time-To-Finish" );
 
