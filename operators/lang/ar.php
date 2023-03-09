@@ -30,7 +30,7 @@ if (strpos($_SERVER['PHP_SELF'], '/lang/ar.php') !== false) {
     exit;
 }
 
-$l['all']['WitRADIUS'] = sprintf("daloRADIUS %s", $configValues['DALORADIUS_VERSION']);
+$l['all']['WitRADIUS'] = sprintf("WitRADIUS %s", $configValues['DALORADIUS_VERSION']);
 $l['all']['daloRADIUSVersion'] = sprintf("version %s ", $configValues['DALORADIUS_VERSION']);
 $l['all']['copyright1'] = 'راديوس الإدارة وإعداد التقارير والمحاسبة والفواتير <a target="_blank" href="https://fb.com/witradius">WitRADIUS</a>';
 $l['all']['copyright2'] = 'حقوق نشر ويت راديوس 2023 بواسطة <a target="_blank" href="https://fb.com/witradius">WitRADIUS</a>.<br>'
