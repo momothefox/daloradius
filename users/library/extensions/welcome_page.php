@@ -31,7 +31,7 @@ if (strpos($_SERVER['PHP_SELF'], '/library/extensions/welcome_page.php') !== fal
 
 echo <<<EOF
     <div class="text-center">
-        <h2>daloRADIUS Userportal</h2>
+        <h2>WitRADIUS Userportal</h2>
         <h3>Welcome to the user Portal</h3>
     </div>
 EOF;
