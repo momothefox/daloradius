@@ -30,7 +30,7 @@ if (strpos($_SERVER['PHP_SELF'], '/lang/en.php') !== false) {
 }
 
 $l['all']['WitRADIUS'] = sprintf("daloRADIUS %s", $configValues['DALORADIUS_VERSION']);
-$l['all']['WitRADIUSVersion'] = sprintf("version %s ", $configValues['DALORADIUS_VERSION']);
+$l['all']['daloRADIUSVersion'] = sprintf("version %s ", $configValues['DALORADIUS_VERSION']);
 $l['all']['copyright1'] = 'RADIUS Management, Reporting, Accounting and Billing by <a target="_blank" href="https://fb.com/witradius">WitRADIUS</a>';
 $l['all']['copyright2'] = 'WitRADIUS - Copyright &copy; 2023 by <a target="_blank" href="https://fb.com/witradius">WitRADIUS</a>.<br>'
                         . 'WitRADIUS has been enhanced by <a target="_blank" href="https://wifi-station.com">Wit Solutoins</a>.';
