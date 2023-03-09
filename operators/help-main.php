@@ -43,16 +43,9 @@
 
     <p>There are several communication media available at your disposal:</p>
     <ul>
-        <li><p><strong>daloRADIUS website:</strong> <a class="text-decoration-none" href="http://www.daloradius.com" target="_blank">daloRADIUS blog</a>.</p></li>
-        <li><p><strong>daloRADIUS Project on GitHub:</strong> <a class="text-decoration-none" href="https://github.com/lirantal/daloradius" target="_blank">GitHub project</a>.<br>
-        At GitHub, you can find the trackers for submitting tickets for support, bugs, or features for the next release.<br>
-        The official daloRADIUS package is also available on GitHub.</p></li>
-        <li><p><strong>daloRADIUS Project on SourceForge:</strong> <a class="text-decoration-none" href="http://sourceforge.net/projects/daloradius/" target="_blank">SourceForge project</a>.<br>
-        You can use forums and the mailing list archive to review and search for issues.<br>
-        However, the daloRADIUS packages here are old, so it is better to use the ones on GitHub.</p></li>
-        <li><p><strong>daloRADIUS Mailing List:</strong> you can send an email to <a class="text-decoration-none" href="mailto:daloradius-users@lists.sourceforge.net">daloradius-users@lists.sourceforge.net</a>,<br>
-        but registration to the mailing list is required first. You can register <a class="text-decoration-none" href="https://lists.sourceforge.net/lists/listinfo/daloradius-users" target="_blank">here</a>.</p></li>
-        <li><strong>daloRADIUS IRC:</strong> You can find us at <a class="text-decoration-none" href="irc://irc.freenode.net/daloradius" target="_blank">#daloradius</a> on irc.freenode.net.</li>
+        <li><p><strong>WitRADIUS website:</strong> <a class="text-decoration-none" href="http://witradius.com" target="_blank">WitRADIUS Demo</a>.</p></li>
+        <li><p><strong>WitSolutions website:</strong> <a class="text-decoration-none" href="http://wifi-station.net" target="_blank">WitSoltions Website</a>.</p></li>
+
     </ul>
 
 <?php
