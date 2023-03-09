@@ -136,7 +136,7 @@ body {
     </div>
                     
     <button class="w-100 btn btn-lg btn-primary" type="submit"><?= t('text','LoginPlease') ?></button>
-    <small class="my-2 text-muted text-center d-block"><?= t('all','daloRADIUS') ?></small>
+    <small class="my-2 text-muted text-center d-block"><?= t('all','WitRADIUS') ?></small>
     
     <input name="csrf_token" type="hidden" value="<?= dalo_csrf_token() ?>">
     </form>
