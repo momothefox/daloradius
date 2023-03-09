@@ -794,7 +794,7 @@ $l['button']['History'] = "تاريخي";
 $l['button']['ServerStatus'] = "حالة الخادم";
 $l['button']['ServicesStatus'] = "حالة الخدمات";
 
-$l['button']['daloRADIUSLog'] = "سجل دالوراديوس";
+$l['button']['WitRADIUSLog'] = "سجل دالوراديوس";
 $l['button']['RadiusLog'] = "سجل الراديوس";
 $l['button']['SystemLog'] = "سجل النظام";
 $l['button']['BootLog'] = "سجل بدء التشغيل";

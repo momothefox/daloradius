@@ -771,7 +771,7 @@ $l['button']['History'] = "History";
 $l['button']['ServerStatus'] = "Server Status";
 $l['button']['ServicesStatus'] = "Services Status";
 
-$l['button']['daloRADIUSLog'] = "daloRADIUS Log";
+$l['button']['WitRADIUSLog'] = "WitRADIUS Log";
 $l['button']['RadiusLog'] = "Radius Log";
 $l['button']['SystemLog'] = "System Log";
 $l['button']['BootLog'] = "Boot Log";
