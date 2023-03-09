@@ -34,7 +34,7 @@ $l['all']['WitRADIUS'] = sprintf("WitRADIUS %s", $configValues['DALORADIUS_VERSI
 $l['all']['daloRADIUSVersion'] = sprintf("version %s ", $configValues['DALORADIUS_VERSION']);
 $l['all']['copyright1'] = 'راديوس الإدارة وإعداد التقارير والمحاسبة والفواتير <a target="_blank" href="https://fb.com/witradius">WitRADIUS</a>';
 $l['all']['copyright2'] = 'حقوق نشر ويت راديوس 2023 بواسطة <a target="_blank" href="https://fb.com/witradius">WitRADIUS</a>.<br>'
-                        . 'تم تطوير ويت راديوس بواسطة <a target="_blank" href="http://wifi-station.com">Wit Solutions</a>.';
+                        . 'تم تطوير ويت راديوس بواسطة <a target="_blank" href="http://wifi-station.com">WitSolutions</a>.';
 $l['all']['ID'] = "مسلسل";
 $l['all']['PoolName'] = "IP حوض";
 $l['all']['CalledStationId'] = "ماك نقطة الوصول";
