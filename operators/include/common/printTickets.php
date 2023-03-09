@@ -211,12 +211,12 @@
 
 @page {
     size: 21cm 29.7cm;
-    margin: 0;
+    margin: 5mm;
 }
 
 body {
     font-family: Tahoma;
-    padding: 1cm;
+    padding: 5mm;
 }
 
 .container:first-child .card {
