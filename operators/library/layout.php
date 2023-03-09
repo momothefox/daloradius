@@ -54,7 +54,7 @@ function print_html_prologue($title, $lang='en', $extra_css=array(), $extra_js=a
 
     $lang = strtolower($lang);
     $dir = ($lang === 'ar') ? "rtl" : "ltr";
-    $title = ucfirst($title) . " :: daloRADIUS";
+    $title = ucfirst($title) . " :: WitRADIUS";
 
     echo <<<EOF
 <!DOCTYPE html>
