@@ -226,7 +226,7 @@
     include_once('include/management/actionMessages.php');
     
     // set navbar stuff
-    $navkeys = array( 'FreeRADIUSTables', 'daloRADIUSTables' );
+    $navkeys = array( 'FreeRADIUSTables', 'WitRADIUSTables' );
 
     $options = array( "yes", "no" );
 
