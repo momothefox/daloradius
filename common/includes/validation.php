@@ -246,7 +246,7 @@ $valid_planTypes = array( "Prepaid", "Postpaid", "2Checkout", "PayPal", );
 $valid_planRecurringPeriods = array( "Never", "Daily", "Weekly", "Monthly", "Quarterly", "Semi-Yearly", "Yearly", );
 $valid_planRecurringBillingSchedules = array( "Fixed", "Anniversary", );
 $valid_planCurrencys = array(
-                               "EGP", "USD", "EUR", "GBP",
+                               "EGP", "SAR", "LYD", "SDG", "YER", "AED", "IQD",
                             );
 $valid_planTimeTypes = array( "Accumulative", "Time-To-Finish" );
 
