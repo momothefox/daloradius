@@ -77,7 +77,7 @@ $components[] = array(
 $count_select["id"] = "count_menu" . rand();
 $components[] = $count_select;
                      
-$descriptors1[] = array( 'type' => 'form', 'title' => t('button','daloRADIUSLog'), 'action' => 'rep-logs-daloradius.php', 'method' => 'GET',
+$descriptors1[] = array( 'type' => 'form', 'title' => t('button','WitRADIUSLog'), 'action' => 'rep-logs-daloradius.php', 'method' => 'GET',
                          'img' => array( 'src' => 'static/images/icons/reportsLogs.png', ), 'form_components' => $components, );
 
 
