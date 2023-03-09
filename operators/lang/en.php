@@ -844,7 +844,7 @@ $l['title']['BatchRemoval'] = "Batch Removal";
 
 $l['title']['Backups'] = "Backups";
 $l['title']['FreeRADIUSTables'] = "FreeRADIUS Tables";
-$l['title']['daloRADIUSTables'] = "daloRADIUS Tables";
+$l['title']['WitRADIUSTables'] = "WitRADIUS Tables";
 
 $l['title']['IPPoolInfo'] = "IP-Pool Info";
 

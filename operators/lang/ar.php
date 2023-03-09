@@ -867,7 +867,7 @@ $l['title']['BatchRemoval'] = "حذف دفعة";
 
 $l['title']['Backups'] = "النسخ الاحتياطية";
 $l['title']['FreeRADIUSTables'] = "جداول الراديوس";
-$l['title']['daloRADIUSTables'] = "جداول دالوراديوس";
+$l['title']['WitRADIUSTables'] = "جداول ويت راديوس";
 
 $l['title']['IPPoolInfo'] = "IP-Pool معلومات";
 
