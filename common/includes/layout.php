@@ -151,7 +151,7 @@ EOF;
         <div class="p-4 text-center text-bg-light border-top border-bottom">
             <div class="d-flex align-items-center">
                 <div class="flex-shrink-0 text-bg-white">
-                    <img src="static/images/daloradius_small.png">
+                    <img src="static/images/witradius_small.png">
                 </div>
                 <div class="flex-grow-1 ms-3">
 EOF;

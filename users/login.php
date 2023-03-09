@@ -94,7 +94,7 @@ body {
 <body>
     <main class="form-login w-100 m-auto">
     <form action="dologin.php" method="POST">
-    <img class="mb-4" src="static/images/daloradius_small.png" alt="daloRADIUS" width="135" height="41">
+    <img class="mb-4" src="static/images/witradius_small.png" alt="daloRADIUS" width="135" height="41">
     <h1 class="h3 mb-3 fw-normal d-flex align-items-center">
         <button class="btn btn-link btn-lg" data-bs-toggle="modal" data-bs-target="#welcome-modal">
             <i class="bi bi-info-circle-fill"></i>
