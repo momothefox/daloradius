@@ -1093,11 +1093,11 @@ $l['Intro']['repstatserver.php'] = "Server Status and Information";
 $l['Intro']['reponline.php'] = "Listing Online Users";
 $l['Intro']['replogssystem.php'] = "System Logfile";
 $l['Intro']['replogsradius.php'] = "RADIUS Server Logfile";
-$l['Intro']['replogsdaloradius.php'] = "daloRADIUS Logfile";
+$l['Intro']['replogsdaloradius.php'] = "WitRADIUS Logfile";
 $l['Intro']['replogsboot.php'] = "Boot Logfile";
 $l['Intro']['replogs.php'] = "Logs";
 $l['Intro']['rephb.php'] = "Heartbeat";
-$l['Intro']['rephbdashboard.php'] = "daloRADIUS NAS Dashboard";
+$l['Intro']['rephbdashboard.php'] = "WitRADIUS NAS Dashboard";
 $l['Intro']['repbatch.php'] = "Batch";
 $l['Intro']['mngbatchlist.php'] = "Batch Sessions List";
 $l['Intro']['repbatchlist.php'] = "Batch Users List";
@@ -1464,8 +1464,8 @@ EOF;
 $l['helpPage']['configmainttestuser'] = <<<EOF
 <h1 class="fs-5">Test User Connectivity</h1>
 <p>Send an Access-Request to the RADIUS Server to check if a user's credentials are valid.</p>
-<p>daloRADIUS uses the radclient binary utility to perform the test and returns the results of the command after it finishes.</p>
-<p>daloRADIUS relies on the radclient binary being available in your <code>\$PATH</code> environment variable. If it is not, please make corrections to the <code>library/extensions/maintenance_radclient.php</code> file.</p>
+<p>WitRADIUS uses the radclient binary utility to perform the test and returns the results of the command after it finishes.</p>
+<p>WitRADIUS relies on the radclient binary being available in your <code>\$PATH</code> environment variable. If it is not, please make corrections to the <code>library/extensions/maintenance_radclient.php</code> file.</p>
 <p>Please note that it may take a while for the test to finish (up to several seconds [10-20 seconds or so]) because of failures and radclient will retransmit the packets.</p>
 <p>In the Advanced tab, it is possible to fine-tune the options for the test:</p>
 <ul>
@@ -1480,8 +1480,8 @@ $l['helpPage']['configmaintdisconnectuser'] = <<<EOF
 <h1 class="fs-5">Disconnect User</h1>
 <p>Send a PoD (Packet of Disconnect) or CoA (Change of Authority) packets to the NAS server to disconnect a user and terminate his/her session in a given NAS.</p>
 <p>For terminating a user's session it is required that the NAS support the PoD or CoA packet types, please consult your NAS vendor or documentation for this. Moreover, it is required to know the NAS ports for PoD or CoA packets, whereas newer NASs use port 3799 while other ones are configured to receive the packet on port 1700.</p>
-<p>daloRADIUS uses the radclient binary utility to perform the test and returns the results of the command after it finishes.</p>
-<p>daloRADIUS counts on the radclient binary being available in your <code>\$PATH</code> environment variable, if it is not, please make corrections to the <code>library/extensions/maintenance_radclient.php</code> file.</p>
+<p>WitRADIUS uses the radclient binary utility to perform the test and returns the results of the command after it finishes.</p>
+<p>WitRADIUS counts on the radclient binary being available in your <code>\$PATH</code> environment variable, if it is not, please make corrections to the <code>library/extensions/maintenance_radclient.php</code> file.</p>
 <p>Please note that it may take a while for the test to finish (up to several seconds [10-20 seconds or so]) because of failures and radclient will retransmit the packets.</p>
 <p>In the Advanced tab it is possible to fine-tune the options for the test:</p>
 <ul>
@@ -1554,7 +1554,7 @@ $l['helpPage']['rephistory'] = "Lists all activity performed on management items
 Creation Date, Creation By as well as Updated Date and Update By history fields";
 $l['helpPage']['replastconnect'] = "Lists all login attempts to the RADIUS server, both successful and failed logins";
 $l['helpPage']['replogsboot'] = "Monitor Operating System Boot log - equivalent to running the dmesg command.";
-$l['helpPage']['replogsdaloradius'] = "Monitor daloRADIUS's Logfile.";
+$l['helpPage']['replogsdaloradius'] = "Monitor WitRADIUS's Logfile.";
 $l['helpPage']['replogsradius'] = "Monitor FreeRADIUS's Logfile.";
 $l['helpPage']['replogssystem'] = "Monitor Operating System Logfile.";
 $l['helpPage']['rephb'] = "";
@@ -1566,8 +1566,8 @@ $l['helpPage']['mngbatchdel'] = "";
 $l['helpPage']['repbatchdetails'] = "Provides details on a specific batch";
 $l['helpPage']['replogs'] = <<<EOF
 <h1 class="fs-5">Logs</h1>
-<h2 class="fs-6">daloRADIUS Log</h2>
-<p>Monitors the daloRADIUS logfile.</p>
+<h2 class="fs-6">WitRADIUS Log</h2>
+<p>Monitors the WitRADIUS logfile.</p>
 <h2 class="fs-6">RADIUS Log</h2>
 <p>Monitors the FreeRADIUS logfile, equivalent to <code>/var/log/freeradius/radius.log</code> or <code>/usr/local/var/log/radius/radius.log</code>. Other possible locations for the logfile may be used, so please adjust the configuration accordingly.</p>
 <h2 class="fs-6">System Log</h2>
@@ -1585,7 +1585,7 @@ $l['helpPage']['repmain'] = <<<EOF
 <p>Provides a list of the top N users for bandwidth consumption and session time used.</p>
 <h1 class="fs-5">Sub-Category Reports</h1>
 <h2 class="fs-6">Logs</h2>
-<p>Provides access to the daloRADIUS logfile, FreeRADIUS's logfile, the system's logfile, and the boot logfile.</p>
+<p>Provides access to the WitRADIUS logfile, FreeRADIUS's logfile, the system's logfile, and the boot logfile.</p>
 <h2 class="fs-6">Status</h2>
 <p>Provides information on server status and RADIUS component status.</p>
 EOF;
@@ -1724,7 +1724,7 @@ $l['helpPage']['acctmaintenance'] = <<<EOF
 EOF;
 $l['helpPage']['acctmaintenancecleanup'] = <<<EOF
 <h2 class="fs-6">Cleanup Stale Sessions</h2>
-<p>This feature is used to clean up stale user sessions that remain active in FreeRADIUS (and thus in daloRADIUS), even though the user is no longer connected to the NAS. Stale sessions can occur when the NAS fails to provide an accounting STOP record, resulting in false positive logged-in user records.</p>
+<p>This feature is used to clean up stale user sessions that remain active in FreeRADIUS (and thus in WitRADIUS), even though the user is no longer connected to the NAS. Stale sessions can occur when the NAS fails to provide an accounting STOP record, resulting in false positive logged-in user records.</p>
 <p>There are two ways to clean up stale sessions:
 <ul>
 <li>Cleanup by Username: This option will <b>close</b> all open sessions for a specific username in the FreeRADIUS database. Use this option with caution.</li>
